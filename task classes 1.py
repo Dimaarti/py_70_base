@@ -13,7 +13,6 @@ class Variable:
     def max_var(self):
         print(max(self.var1, self.var2))
 
-
 variable_1 = Variable(5, 6)
 variable_1.display()
 variable_1.var_sum()
@@ -88,4 +87,6 @@ class MoneyBox:
 box = MoneyBox(capacity=30)
 print(box.add(v = 29))      #True
 print(box.add(v = 31))      #False
+
+#classes
 

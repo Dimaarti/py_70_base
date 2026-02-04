@@ -86,6 +86,6 @@ class MoneyBox:
 
 
 box = MoneyBox(capacity=30)
-print(box.add(v = 29))      #True
-print(box.add(v = 31))      #False
+print(box.add(v = 29))
+print(box.add(v = 31))
 
